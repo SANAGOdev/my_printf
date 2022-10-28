@@ -9,7 +9,7 @@
 
 int main(void)
 {
-    my_printf("%o\n", "test");
-    printf("%o\n", "test");
+    my_printf("%x\n", "test");
+    printf("%X\n", "test");
     return 0;
 }

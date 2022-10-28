@@ -1,6 +1,7 @@
 main.c
 *.o
-a.out
+a.exe
 test.exe
 test
 .vscode
+.gitignore
