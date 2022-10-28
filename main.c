@@ -9,6 +9,7 @@
 
 int main(void)
 {
-    my_printf("%o\n", 195);
+    my_printf("%o\n", "test");
+    printf("%o\n", "test");
     return 0;
 }

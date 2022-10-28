@@ -1,5 +1,6 @@
 *.o
 a.out
-.gitignore
 test.exe
 test
+main.c
+.gitignore
