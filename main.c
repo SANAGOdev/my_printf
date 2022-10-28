@@ -5,9 +5,10 @@
 ** main test file
 */
 
-#include "include/my.h"
+#include "includes/my.h"
 
 int main(void)
 {
-    my_printf("%s\n", "meow");
+    my_printf("%o\n", 195);
+    return 0;
 }

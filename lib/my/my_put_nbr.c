@@ -5,7 +5,7 @@
 ** yes
 */
 
-#include "../../include/my.h"
+#include "../../includes/my.h"
 
 int my_put_nbr(int nb1)
 {

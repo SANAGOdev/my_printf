@@ -18,6 +18,7 @@ int my_putlong_float(long nb1, char *basic);
 int my_put_nbr(int nb1);
 void my_putchar(char c);
 int my_putstr(char const *arr);
+int my_put_octal(int nb);
 int my_strlen(char const *arr);
 int my_printf(const char* format, ...);
 
