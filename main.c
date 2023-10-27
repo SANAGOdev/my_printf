@@ -12,11 +12,11 @@
 int main(void)
 {
     int i;
-    char *hitler = "hitler";
+    char *amimir = "amimir";
     
-    printf("ca%Xca%sbbb%n  : ", "caca", hitler, &i);
+    printf("ca%Xca%sbbb%n  : ", "caca", amimir, &i);
     printf("%d\n", i);
-    my_printf("ca%Xca%sbbb%n  : ", "caca", hitler, &i);
+    my_printf("ca%Xca%sbbb%n  : ", "caca", amimir, &i);
     my_printf("%d\n", i);
 
     return 0;
