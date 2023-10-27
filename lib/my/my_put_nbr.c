@@ -1,28 +1,26 @@
 /*
-** EPITECH PROJECT, 2022
-** my_put_nbr
+** EPITECH PROJECT, 2023
+** day03
 ** File description:
-** yes
+** my_put_nbr.c
 */
 
-#include "../../includes/my.h"
+#include "my.h"
 
-int my_put_nbr(int nb1)
+int my_put_nbr(int nb)
 {
-    int nb2 = 0;
-
-
-    if (nb1 < 0) {
+    if (nb < 0) {
         my_putchar('-');
-        nb1 = nb1 *(-1);
+        nb = -nb;
     }
-    if (nb1 >= 10) {
-        nb2 = nb1 % 10;
-        nb1 = nb1 / 10;
-        my_put_nbr(nb1);
-        my_putchar(nb2 + '0');
-    }else {
-        my_putchar(nb1 + '0');
+    if (nb >= 0 && nb <= 9) {
+        my_putchar(nb + 48);
     }
-    return 0;
+    if (nb == -2147483648) {
+        my_putstr("2147483648");
+    } else if (nb > 9) {
+        my_put_nbr(nb / 10);
+        my_putchar(nb % 10 + 48);
+    }
+    return my_intlen(nb);
 }

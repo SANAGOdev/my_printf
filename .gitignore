@@ -1,6 +1,5 @@
-main.c
-*.o
-a.exe
-test.exe
-test
 .vscode
+*.o
+*.a
+prog
+temp

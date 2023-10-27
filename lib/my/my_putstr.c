@@ -1,18 +1,19 @@
 /*
-** EPITECH PROJECT, 2022
-** my_putstr
+** EPITECH PROJECT, 2023
+** day04
 ** File description:
-** task02
+** my_putstr.c
 */
 
-#include "../../includes/my.h"
+#include "my.h"
 
-int my_putstr(char const *arr)
+int my_putstr(char const *str)
 {
-    int count = 0;
-    while (arr[count] != '\0') {
-        my_putchar(arr[count]);
-        count = count + 1;
+    int i = 0;
+
+    while (str[i] != 0) {
+        my_putchar(str[i]);
+        i++;
     }
-    return count;
+    return my_strlen(str);
 }

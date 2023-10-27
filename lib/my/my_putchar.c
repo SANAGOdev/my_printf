@@ -1,13 +1,14 @@
 /*
-** EPITECH PROJECT, 2022
-** printer
+** EPITECH PROJECT, 2023
+** day07
 ** File description:
-** my_putchar
+** my_putchar.c
 */
 
-#include "../../includes/my.h"
+#include "my.h"
 
-void my_putchar(char c)
+int my_putchar(char c)
 {
     write(1, &c, 1);
+    return 1;
 }

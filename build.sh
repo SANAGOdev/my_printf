@@ -1,0 +1,1 @@
+gcc main.c -o prog -Iinclude -L./ -lmy -Wall -Wextra

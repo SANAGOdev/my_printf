@@ -1,17 +1,18 @@
 /*
-** EPITECH PROJECT, 2022
-** my_strlen
+** EPITECH PROJECT, 2023
+** day04
 ** File description:
-** task03
+** my_strlen.c
 */
 
-#include "../../includes/my.h"
-
-int my_strlen(char const *arr)
+int my_strlen(char const *str)
 {
-    int count = 0;
-    while (arr[count] != '\0'){
-        count = count + 1;
+    int i = 0;
+    int nb = 0;
+
+    while (str[i] != '\0') {
+        i++;
+        nb = i;
     }
-    return (count);
+    return nb;
 }
