@@ -25,7 +25,8 @@ static int calc_res(char const *str, int i, int res)
 {
     if (!calc_int(res, str[i] - '0'))
         return 0;
-    return res = res * 10 + (str[i] - '0');
+    res = res * 10 + (str[i] - '0');
+    return res;
 }
 
 int my_getnbr(char const *str)

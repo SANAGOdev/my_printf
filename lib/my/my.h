@@ -41,8 +41,11 @@ int my_put_hex_lower(int nb);
 int my_put_hex_upper(int nb);
 int my_put_pointer(void *ptr);
 int my_put_unsigned_int(unsigned int nb);
-void my_put_float(double nb);
+int my_put_float(double nb);
 int my_putlong_float(long nb, char *num_list);
 int my_intlen(int nb);
+int my_put_bin(int nb);
+void my_put_e(double nb);
+void my_put_e_upper(double nb);
 
 #endif /* !MY_H_ */

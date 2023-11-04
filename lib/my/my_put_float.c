@@ -22,7 +22,7 @@ static int put_float_check(long d2, double d3, int res)
     return res;
 }
 
-void my_put_float(double nb)
+int my_put_float(double nb)
 {
     long d1 = 0;
     long tmp = nb;
@@ -42,4 +42,5 @@ void my_put_float(double nb)
     res++;
     my_putchar('.');
     put_float_check(d2, d3, res);
+    return 7;
 }
